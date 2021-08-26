@@ -1,0 +1,175 @@
+\documentclass[french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage{supertabular}
+\usepackage[hyphens]{url}
+
+\title{ME731\\Syllabus}
+\author{David Langlois}
+\date{Août 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Objectif}
+
+La série de modules 731, 831, 931 vise à revoir les notions informatiques abordées au Lycée, en SNT et NSI.
+
+Considérant que ces notions ont déjà été abordées auparavant, on insistera en plus sur des éléments transversaux : production de documentation, jeux de test pertinents, etc.
+
+De même, au-delà des notions revues, des exemples de difficultés, d'activités et d'exercices avec les élèves seront donnés.
+
+\section{Modalités}
+
+Le module sera organisé en séances de TD avec machine, combinant apports notionnels, échanges, activités de groupe, exercices sur feuille et machine.
+
+\section{Durée}
+
+Le module dure 114 heures sur des créneaux de 2h ou 3h.
+
+\section{Intervenants}
+
+les intervenants seront~:
+
+\begin{itemize}
+    \item Etienne Boyaval (EB)
+    \item Sylvain Contassot (SC)
+    \item David Langlois (DL)
+    \item Yannick Parmentier (YP)
+    \item Nicolas de Rugy Althere (NdRA)
+\end{itemize}
+
+
+
+\section{Documents institutionnels de référence}
+
+\begin{itemize}
+    \item Le programme NSI de Première~:\\ \url{https://cache.media.eduscol.education.fr/file/SP1-MEN-22-1-2019/26/8/spe633_annexe_1063268.pdf}
+    \item Le programme NSI de Terminale~:\\ \url{https://cache.media.eduscol.education.fr/file/SPE8_MENJ_25_7_2019/93/3/spe247_annexe_1158933.pdf}
+    \item Documents d'accompagnement~:\\ \url{https://eduscol.education.fr/2068/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g}
+\end{itemize}
+
+
+\section{Contenu pédagogique}
+
+Le module 731 aborde les points suivants~:
+
+\begin{itemize}
+\item Système (SYST, 8h)
+\begin{itemize}
+\item environnement de travail du master, de l'élève en lycée, système d'exploitation (dont Linux), gestion de processus, mémoire, machine virtuelle
+\end{itemize}
+
+\item Représentation numérique de l'information (REPINFO, 20h)
+\begin{itemize}
+\item Principe binaire ; représentation des valeurs numériques, naturelles, relatives, réelles ; représentation des caractères, des images, du son, des vidéos ; compression ; cryptographie ; théorie de l'information ; langages de description : XML, JSON ; sérialisation 
+\end{itemize}
+\item Architecture des ordinateurs (ARCHI, 32h) 
+\begin{itemize}
+\item Du transistor aux portes logiques ; algèbre booléenne ; circuits séquentiels ; circuits de mémoire ; machine de Turing ; assembleur ; éléments de compilation ; système ; robotique 
+\end{itemize}
+\item Modélisation (MODEL, 32h) 
+\begin{itemize}
+\item Type Abstrait de Données, liste, pile, file, implémentations ; tableaux ; tableaux associatifs ; tables de hachage ; dictionnaires ; arbres ; graphes ; bases de données \end{itemize}
+
+\item Algorithmes \& Langages (ALGOPROG, 22h, domaine qui sera renforcé en semestre 8) 
+\begin{itemize}
+\item Les gammes des algorithmes (ce que tout informaticien devrait savoir) ; algorithmes sur les listes, les tableaux ; tris ;  
+\item Programmation en python : programmation impérative, types de base
+\end{itemize}
+
+\end{itemize}
+
+\section{Séances}
+
+Voici la liste des séances, incluant le thème de la séance et un bref descriptif du contenu. L'ordonnancement et le contenu exact des séances sont donnés à titre indicatif et pourront évoluer en fonction des contraintes pédagogiques et organisationnelles.
+
+\begin{center}
+
+\tablefirsthead{%
+\hline
+Numéro de Séance & Thème & Contenu & Intervenant \\ \hline
+}
+\tablehead{%
+\hline
+\multicolumn{4}{|l|}{\small\sl suite de la page précédente}\\
+\hline
+Numéro de Séance & Thème & Contenu & Intervenant \\ \hline
+}
+\tabletail{%
+\hline
+\multicolumn{4}{|r|}{\small\sl voir page suivante}\\
+\hline}
+\tablelasttail{\hline}
+
+
+\begin{supertabular}{|p{1.5cm}|c|p{6cm}|c|}
+1 & SYST & mise en place environnement de travail & YP \\ \hline
+2 & SYST & mise en place environnement de travail & YP \\ \hline
+3 & REPINFO & introduction (langages, machine, algorithmes), pourquoi le binaire ? Notion de codage, les nombres entiers : codage en base 2, algorithmes passage 2 - 10 & EB \\ \hline
+4 & REPINFO & les nombres relatifs : bit de signe, complément à 2, décalage & EB \\ \hline
+5 & REPINFO & les flottants & DL \\ \hline
+6 & REPINFO & les caractères, fichiers textes, binaires & DL \\ \hline
+7 & REPINFO & théorie de l'information & SC \\ \hline
+8 & REPINFO & les images & SC \\ \hline
+9 & REPINFO & le son & SC \\ \hline
+10 & REPINFO & TP son et image & SC \\ \hline
+11 & REPINFO & cryptographie & SC \\ \hline
+12 & REPINFO & cryptographie & SC \\ \hline
+13 & ARCHI & rappel : ordinateur et binaire (intro archi), algèbre booléenne, calcul, simplification, table de karnaugh & DL \\ \hline
+14 & ARCHI & le transistor et la porte non & DL \\ \hline
+15 & ARCHI & porte ET OU & DL \\ \hline
+16 & ARCHI & équivallence expression booléenne, conception de circuits & DL \\ \hline
+17 & ARCHI & du circuit à la table de vérité & DL \\ \hline
+18 & ARCHI & de la table de vérité au circuit & DL \\ \hline
+19 & ARCHI & multiplexeur, somme arithmétique & DL \\ \hline
+20 & ARCHI & mémoire & DL \\ \hline
+21 & ARCHI & architecture von Neumann & NdRA \\ \hline
+22 & ARCHI & architecture von Neumann & NdRA \\ \hline
+
+23 & ARCHI & machine de Turing \& modèle de calcul & NdRA \\ \hline
+
+24 & ARCHI & machine de Turing \& modèle de calcul & NdRA \\ \hline
+25 & ARCHI & assembleur & EB \\ \hline
+26 & ARCHI & assembleur & EB \\ \hline
+27 & SYST & systeme, gestion de processus, mémoire. & YP \\ \hline
+28 & SYST & systeme, gestion de processus, mémoire. & YP \\ \hline
+29 & ARCHI & éléments de robotique & DB ? \\ \hline
+30 & ARCHI & éléments de robotique & DB ? \\ \hline
+31 & ALGOPROG & Focus python & YP \\ \hline
+32 & ALGOPROG & Focus python & YP \\ \hline
+33 & ALGOPROG & Focus python & YP \\ \hline
+34 & MODEL & variable et type (retour sur codage) & YP \\ \hline
+35 & MODEL & ensemble de données : tableau & YP \\ \hline
+36 & MODEL & ensemble de données : tableau 2D & YP \\ \hline
+37 & MODEL & python : tuple, liste (tableau, en fait) & YP \\ \hline
+38 & MODEL & calcul de bit (codé 8 infos binaires sur un octet) & YP \\ \hline
+39 & MODEL & modéliser les données d'un problème & EB \\ \hline
+40 & MODEL & modéliser les données d'un problème & EB \\ \hline
+41 & MODEL & modéliser les données d'un problème & EB \\ \hline
+42 & MODEL & modéliser les données d'un problème & EB \\ \hline
+43 & MODEL & structure de données, montrer qu'on peut utiliser des types composés, avec l'opérateur . & YP \\ \hline
+44 & MODEL & listes chainées, pile, file, TAD : ne parler que de la structure, de l'intérêt pour la modélisation & YP \\ \hline
+45 & MODEL & tables de hachage, dictionnaires : ne parler que de la structure, de l'intérêt pour la modélisation & YP \\ \hline
+46 & MODEL & arbres : ne parler que de la structure, de l'intérêt pour la modélisation & EB \\ \hline
+47 & MODEL & graphes : ne parler que de la structure, de l'intérêt pour la modélisation & EB \\ \hline
+48 & MODEL & langages de description : XML, JSON, sérialisation & EB \\ \hline
+49 & MODEL & langages de description : XML, JSON, sérialisation & EB \\ \hline
+50 & ALGOPROG & de l'algorithme au programme (pgcd), algorithme sur les tableaux, tous les algo de base (min, max, moyenne, recherche, count, etc.),  & YP \\ \hline
+51 & ALGOPROG & tris, algorithmes sur les listes & YP \\ \hline
+52 & ALGOPROG & algorithmes sur les textes & DJ \\ \hline
+53 & ALGOPROG & algorithmes sur les textes & DJ \\ \hline
+54 & ALGOPROG & arbres & YP \\ \hline
+55 & ALGOPROG & arbres & YP \\ \hline
+56 & ALGOPROG & graphes & YP \\ \hline
+57 & ALGOPROG & graphes & YP \\ \hline
+\end{supertabular}
+\end{center}
+
+
+
+
+
+
+\end{document}
